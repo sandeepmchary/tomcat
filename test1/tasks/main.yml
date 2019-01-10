@@ -17,7 +17,7 @@
     - restart tomcat
 - name: install additional packages
   package:
-    name: {{ item }}
+    name: "{{ item }}"
   with_items:
     "{{ additional_packages }}"
 - name: configure tomcat users
