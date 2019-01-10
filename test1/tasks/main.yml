@@ -19,7 +19,7 @@
   package:
     name: {{ item }}
   with_items:
-    {{ additional_packages }}
+    "{{ additional_packages }}"
 - name: configure tomcat users
   template:
     src: tomcat-users.xml.j2
