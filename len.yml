@@ -2,4 +2,8 @@
 - hosts: tomcat
   become: yes
   roles:
+<<<<<<< HEAD
    - test1
+=======
+  - test1
+>>>>>>> cd94f6e11586d03549bb8674fa7129c89fa6af69
