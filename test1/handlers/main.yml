@@ -1,0 +1,7 @@
+---
+# handlers file for test
+handlers:
+  - name: restart tomcat
+    service:
+      name: "{{ package }}"
+      state: restarted
